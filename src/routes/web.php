@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\AdvanceController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +15,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+    //return view('welcome');
+
+
+Route::get('/', [AdvanceController::class,'index']
+);
+Route::post('/Advance/confirm', [AdvanceController::class,'confirm']);
+
+Route::post('/confirm/thanks',[AdvanceController::class,'store']);
+
+Route::get('/Advance',[AdvanceController::class,'store']);
