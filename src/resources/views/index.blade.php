@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>入力画面</title>
     <link rel="stylesheet" href="{{ asset('/css/sanitize.css') }}" />
-    <link rel="stylesheet" href="{{ asset('/css/index.css') }}" />
+    <link rel="stylesheet" href="{{ asset('/css/index1.css') }}" />
 </head>
 <body>
     <main>
@@ -24,9 +24,9 @@
                 <div class="form__group-content">
                     <div class="form__input--text">
                         <input type="text" name="family-name" placeholder="例）山田"
-                        value="{{ old('family-name') }}" />
+                        value="{{ old('family-name') }}"  class="form__input--text-family"/>
                         <input type="text" name="given-name"  placeholder="例）太郎"
-                        value="{{ old('given-name') }}" />
+                        value="{{ old('given-name') }}" class="form__input--text-given"/>
                     </div>
                     <div class="form__error">
                         @error('family-name')
@@ -71,13 +71,14 @@
                     <span class="form__label--required">※</span>
                 </div>
                 <div class="form__group-content">
-                    <div class="form__input--label">
-                        <label for="postcode">&#12306;</label>
-                    </div>
+                    
                     <div class="form__input--text">
+                        <div class="form__input--label">
+                        <label for="postcode">&#12306;</label>
                         <input type="postcode"
                         name="postcode" placeholder="例)123-4567"
                         value="{{ old('postcode') }}" />
+</div>
                     </div>
                     <div class="form__error">
                 @error('postcode')
@@ -87,7 +88,7 @@
                 </div>
             </div>
             <div class="form__group">
-                <div class="form__group--title">
+                <div class="form__group-title">
                     <span class="form__label--item">住所</span>
                     <span class="form__label--required">※</span>
                 </div>
@@ -104,9 +105,8 @@
                 </div>
             </div>
             <div class="form__group">
-                <div class="form__group--title">
+                <div class="form__group-title">
                     <span class="form__label--item">建物名</span>
-                    <span class="form__label--required">※</span>
                 </div>
                 <div class="form__group-content">
                     <div class="form__input--text">
@@ -120,7 +120,7 @@
                 </div>
             </div>
             <div class="form__group">
-                <div class="form__group--title">
+                <div class="form__group-title">
                     <span class="form__label--item">ご意見</span>
                     <span class="form__label--required">※</span>
                 </div>
@@ -143,4 +143,6 @@
     </main>
 </body>
 </html>
+
+
 
