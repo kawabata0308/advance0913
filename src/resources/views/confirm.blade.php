@@ -85,7 +85,7 @@
                 <button class="form__button-submit" type="submit">送信</button>
             </div>
 
-            <a href="飛び先のURLを指定" target="_blank" rel="noopener">修正する</a>
+            <a href="" target="_blank" rel="noopener">修正する</a>
 
 
         </form>

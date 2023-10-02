@@ -21,8 +21,8 @@ use App\Http\Controllers\AdvanceController;
 
 Route::get('/', [AdvanceController::class,'index']
 );
-Route::post('/Advance/confirm', [AdvanceController::class,'confirm']);
+Route::post('/confirm', [AdvanceController::class,'confirm']);
 
-Route::post('/confirm/thanks',[AdvanceController::class,'store']);
+Route::post('/thanks',[AdvanceController::class,'store']);
 
-Route::get('/Advance',[AdvanceController::class,'store']);
+//Route::get('confirm/thanks',[AdvanceController::class,'store']);
