@@ -1,0 +1,75 @@
+@media screen and (max-width: 1500px) {
+ .form__group-title{
+    
+    padding-left: 30%;
+  display: flex;
+  }
+  .form__input--text{
+  height: 3em;
+  gap: 20px 18px;
+  display: flex;
+  padding-right: 28em;
+}
+}
+
+.contact-form__heading{
+    text-align: center;
+
+}
+
+.form__button {
+  text-align: center;
+}
+
+.form__group {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  line-height: 6ex;
+  
+}
+
+.form__group-title{
+  padding-left: 15%;
+  isplay: flex;
+}
+
+.form__label--gender{
+ position: absolute;
+  right:52%;
+  top: 19%;
+  
+}
+
+
+
+::placeholder{
+  position: absolute;
+  top: 100;
+}
+
+
+
+.form__input--text{
+  height: 3em;
+  gap: 20px 18px;
+  display: flex;
+  padding-right: 27em;
+}
+
+.form__input--text input{
+  width: 160px;
+  
+}
+
+.form__input--email{
+  padding-right: 2em;
+  
+}
+.form__input--email input{
+  width: 425px;
+  height: 3em;
+}
+.form__button-submit{
+  text-align: center;
+}

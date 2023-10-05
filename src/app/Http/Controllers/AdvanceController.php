@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\AdvanceRequest;
 
-use App\Models\Advances;
+use App\Models\Advance;
+
+
 
 
 

@@ -15,8 +15,8 @@
           <h2>内容確認</h2>
         </div>
             <form class="confirm-table"
-            action="/thanks"
-            method="post">
+            method='post'
+            action="/confirm">
             @csrf
           <div class="confirm-table-title">
             <span class="confirm-table--item">

@@ -23,6 +23,6 @@ Route::get('/', [AdvanceController::class,'index']
 );
 Route::post('/confirm', [AdvanceController::class,'confirm']);
 
-Route::post('/thanks',[AdvanceController::class,'store']);
+Route::post('/confirm',[AdvanceController::class,'store']);
 
 //Route::get('confirm/thanks',[AdvanceController::class,'store']);
