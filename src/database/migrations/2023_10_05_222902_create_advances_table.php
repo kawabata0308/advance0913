@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAdvanceTable extends Migration
+class CreateAdvancesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateAdvanceTable extends Migration
      */
     public function up()
     {
-        Schema::create('advance', function (Blueprint $table) {
+        Schema::create('advances', function (Blueprint $table) {
             $table->id();
             $table->string('family-name');
             $table->string('given-name');
@@ -34,6 +34,6 @@ class CreateAdvanceTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('advance');
+        Schema::dropIfExists('advances');
     }
 }

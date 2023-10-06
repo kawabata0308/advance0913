@@ -51,8 +51,8 @@
             </div>
             <div class="form__group">
                 <div class="form__group-title">
-                    <span class="form__label--item">メールアドレス</span>
-                    <span class="form__group--required">※</span>
+                    <span class="form__label--email">メールアドレス
+                    <span class="form__label--email">※</span>
                 </div>
                 <div class="form__group-content">
                     <div class="form__input--email">

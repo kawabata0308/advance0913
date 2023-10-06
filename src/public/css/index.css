@@ -23,20 +23,21 @@
 
 .form__group {
   display: flex;
-  justify-content: space-between;
+  ustify-content: space-between;
   padding-bottom: 15px;
   line-height: 6ex;
   
 }
 
 .form__group-title{
-  padding-left: 15%;
-  isplay: flex;
+  padding-left: 25em;
+
+  display: flex;
 }
 
 .form__label--gender{
  position: absolute;
-  right:52%;
+  right:50%;
   top: 19%;
   
 }
@@ -54,22 +55,38 @@
   height: 3em;
   gap: 20px 18px;
   display: flex;
-  padding-right: 27em;
+  padding-left: 100px;
 }
 
 .form__input--text input{
-  width: 160px;
+  width: 200px;
   
 }
 
 .form__input--email{
-  padding-right: 2em;
+  padding-right: 20px;
   
 }
 .form__input--email input{
-  width: 425px;
+  width: 415px;
   height: 3em;
+  
 }
 .form__button-submit{
   text-align: center;
+}
+
+.form__label--email{
+  padding-right: 20px;
+}
+
+
+.form__input--label{
+  padding-left: 68px;
+  
+}
+
+.form__input--label input{
+  width: 420px;
+  height: 3em;
 }
